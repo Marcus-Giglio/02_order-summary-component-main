@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  background-color: hsl(225, 100%, 94%) !important;
+  font-family: "Red Hat Display", sans-serif !important;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card {
+  border-radius: 20px !important;
+}
+.card-header {
+  padding: 0 !important;
+  border-bottom: 1px solid transparent !important;
+}
+.card-img {
+  border-radius: 20px 20px 0 0 !important;
+}
+.card-title {
+  font-weight: 900 !important;
+  text-align: center;
+}
+.card-text {
+  font-weight: 500 !important;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 15px;
+}
+.change-btn {
+  background-color: transparent;
+  border: none;
+}
