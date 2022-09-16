@@ -14,7 +14,11 @@ function App() {
             <main>
               <Card>
                 <CardHeader>
-                  <Card.Img src={illustrationHero} className="img-fluid" />
+                  <Card.Img
+                    src={illustrationHero}
+                    className="img-fluid"
+                    alt="illustration hero"
+                  />
                 </CardHeader>
                 <Card.Body className="px-5 py-4">
                   <Card.Title className="m-0 pt-2">Order Summary</Card.Title>
@@ -23,7 +27,11 @@ function App() {
                     podcasts on any device anywhere you like!
                   </Card.Text>
                   <div className="info my-1 p-3">
-                    <img src={iconMusic} className="img-fluid" />
+                    <img
+                      src={iconMusic}
+                      className="img-fluid"
+                      alt="icon music"
+                    />
                     <div>
                       <p className="m-0 card-title">Annual Plan</p>
                       <p className="m-0 card-text">$59.99/year</p>

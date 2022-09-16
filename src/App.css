@@ -67,3 +67,9 @@ body {
 .cancel-btn:active {
   color: black !important;
 }
+
+@media (max-width: 340px) {
+  .info {
+    flex-direction: column;
+  }
+}
