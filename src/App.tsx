@@ -10,20 +10,20 @@ function App() {
     <div className="wrapper">
       <Container>
         <Row>
-          <Col>
+          <Col md={7} lg={5} xl={4} className="mx-auto col-12">
             <Card>
               <CardHeader>
-                <Card.Img src={illustrationHero} />
+                <Card.Img src={illustrationHero} className="img-fluid" />
               </CardHeader>
-              <Card.Body>
-                <Card.Title>Order Summary</Card.Title>
-                <Card.Text>
+              <Card.Body className="px-5 py-4">
+                <Card.Title className="m-0 pt-2">Order Summary</Card.Title>
+                <Card.Text className="m-0 pb-4 pt-3 px-3">
                   You can now listen to millions of songs, audiobooks, and
                   podcasts on any device anywhere you like!
                 </Card.Text>
-                <div className="info">
+                <div className="info my-1 p-3">
                   <div>
-                    <img src={iconMusic} alt="" />
+                    <img src={iconMusic} className="img-fluid" />
                   </div>
                   <div>
                     <p className="m-0 card-title">Annual Plan</p>
@@ -33,7 +33,16 @@ function App() {
                     <button className="change-btn">Change</button>
                   </div>
                 </div>
-                <Button variant="primary">Go somewhere</Button>
+                <Row className="pt-4">
+                  <Col sm={12} className="mb-3 text-center">
+                    <Button className="payment-btn w-100 p-3">
+                      Proceed to Payment
+                    </Button>
+                  </Col>
+                  <Col sm={12} className="text-center">
+                    <Button className="cancel-btn">Cancel Order</Button>
+                  </Col>
+                </Row>
               </Card.Body>
             </Card>
           </Col>
