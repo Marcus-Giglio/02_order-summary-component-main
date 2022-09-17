@@ -7,11 +7,11 @@ import illustrationHero from "./assets/illustration-hero.svg";
 
 function App() {
   return (
-    <div className="wrapper">
-      <Container>
-        <Row>
-          <Col md={7} lg={5} xl={4} className="mx-auto col-12">
-            <main>
+    <main>
+      <div className="wrapper">
+        <Container>
+          <Row>
+            <Col md={7} lg={5} xl={4} className="mx-auto col-12">
               <Card>
                 <CardHeader>
                   <Card.Img
@@ -52,11 +52,11 @@ function App() {
                   </Row>
                 </Card.Body>
               </Card>
-            </main>
-          </Col>
-        </Row>
-      </Container>
-    </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </main>
   );
 }
 
