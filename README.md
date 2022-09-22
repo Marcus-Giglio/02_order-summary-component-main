@@ -49,4 +49,4 @@ I want to continue to improve my CSS skills and learn more about React.
 ## Author
 
 - Frontend Mentor - [@Marcus-Giglio](https://www.frontendmentor.io/profile/Marcus-Giglio)
-- Linkdedin - [Marcus Giglio](https://www.linkedin.com/in/marcus-g-514b51175/)
+- Linkedin - [Marcus Giglio](https://www.linkedin.com/in/marcus-g-514b51175/)
